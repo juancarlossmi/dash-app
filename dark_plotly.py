@@ -35,8 +35,8 @@ app.layout = html.Div(children=[
                        "justifyContent": "space-between"},
                 children=[
                     dmc.Text(
-                        "Ejemplo de aplicacion Dash con modo oscuro",
-                        style={"fontSize": 40},
+                        "Aplicacion Dash con modo oscuro",
+                        style={"fontSize": 36},
                     ),
                     dmc.Switch(
                         id="switch-theme",
